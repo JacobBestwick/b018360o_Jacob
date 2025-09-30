@@ -1,0 +1,79 @@
+/* light and dark theme variables */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --font-family: -apple-system, system-ui, "Arial", "Segoe UI", Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1F1F1F;
+        --text-color: #ffffff;
+    }
+}   
+
+/* default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    padding-bottom: 4rem;
+}
+
+/* main layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* nav */
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* image section */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* desktop layout */
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        bottom: auto;
+    }
+
+    body {
+        padding-bottom: 0;
+    }
+}
+
+
