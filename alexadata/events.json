@@ -1,0 +1,10 @@
+{
+  "classesToday": [
+    { "name": "Web Development", "time": "10:00 AM" },
+    { "name": "UX Design", "time": "2:00 PM" }
+  ],
+  "eventsToday": [
+    { "name": "Coding Workshop", "time": "5:00 PM", "location": "Main Hall" },
+    { "name": "Society Meetup", "time": "7:00 PM", "location": "Student Union" }
+  ]
+}
