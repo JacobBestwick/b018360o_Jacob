@@ -1,7 +1,7 @@
 {
   "classesToday": [
-    { "name": "Web Development", "time": "10:00 AM" },
-    { "name": "UX Design", "time": "2:00 PM" }
+    { "name": "Web Development", "time": "10:00 AM", "location": "Mellor Building" },
+    { "name": "UX Design", "time": "2:00 PM", "location": "Beacon Building" }
   ],
   "eventsToday": [
     { "name": "Coding Workshop", "time": "5:00 PM", "location": "Main Hall" },
